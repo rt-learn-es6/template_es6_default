@@ -1,0 +1,36 @@
+{
+  "name": "es6_template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rt-learn-lang/es6_template.git",
+  "author": "Royce Remulla <royce.com@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "mocha": "^6.2.0",
+    "npm-watch": "^0.6.0",
+    "prettier": "^1.18.2",
+    "sinon": "^7.3.2"
+  },
+  "watch": {
+    "test": "{test,src}/**/*.{js,json}"
+  },
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "babel-version": "babel --version",
+    "test": "mocha --require @babel/register test/index.spec.js",
+    "watch": "npm-watch"
+  }
+}
