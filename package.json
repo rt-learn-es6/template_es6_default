@@ -14,15 +14,15 @@
     "@babel/register": "^7.5.5",
     "chai": "^4.2.0",
     "eslint": "^8.11.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-prettier": "^3.1.0",
-    "mocha": "^9.2.2",
-    "npm-watch": "^0.11.0",
-    "prettier": "^2.0.2",
-    "sinon": "^9.0.1"
+    "eslint-plugin-prettier": "^5.0.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.1",
+    "sinon": "^15.2.0"
   },
   "watch": {
     "test": "{test,src}/**/*.{js,json}"
@@ -31,6 +31,6 @@
     "start": "babel-node src/index.js",
     "babel-version": "babel --version",
     "test": "mocha --require @babel/register test/index.spec.js",
-    "watch": "npm-watch"
+    "watch": "npx nodemon"
   }
 }

@@ -6,9 +6,12 @@ Node JS app template using Yarn.
 
 Uses Mocha, Sinon, Chai.
 
+Run `npm run watch` for update-test loop.
+
 ## To start a new project (deprecated)
 
-For updated way of using project templates, see `rt-learn-lang/cookiecutter-default`
+For updated way of using project templates, see
+`rt-learn-lang/cookiecutter-default`
 
 1. Create a zip without git tracking.
 
