@@ -32,5 +32,8 @@
     "babel-version": "babel --version",
     "test": "mocha --require @babel/register test/index.spec.js",
     "watch": "npx nodemon"
+  },
+  "resolutions": {
+    "path-to-regexp": ">=8.0.0 "
   }
 }
