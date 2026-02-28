@@ -1,5 +1,6 @@
 export const hello = () => {
-  console.log('Hello!')
+	// eslint-disable-next-line no-console -- intentional for demo
+	console.log('Hello!')
 }
 
 hello()
